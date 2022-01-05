@@ -25,21 +25,43 @@ span{
 }    
 section{
     display:flex;
+    margin-bottom: 10%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
 }
-.section top-banner{
+.top-banner{
     margin-left: auto;
 }
 
 .half-width{
     width: 50%;
     padding-left:5%;
+    padding-right: 7%;
 }
 .half-width img{
     width: 80%;
+
     
+}
+.dream-area{
+    width: 100%;
+    
+    margin:0;
+    
+
+
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.download-resume-button{
+    font-size: 28px;
+    text-decoration: none;
+    background-image: linear-gradient(to right ,orange , tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
 }
